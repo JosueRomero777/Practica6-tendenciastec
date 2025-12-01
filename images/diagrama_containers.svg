@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <rect x="10" y="10" width="780" height="280" rx="8" fill="#f7f7f7" stroke="#ccc"/>
+  <text x="20" y="35" font-size="18" fill="#333">Figura 1-1. Diagrama de contenedores (Aplicación, PostgreSQL, pgAdmin)</text>
+  <rect x="60" y="70" width="200" height="120" rx="8" fill="#dfefff" stroke="#4b81ff"/>
+  <text x="110" y="140" font-size="14" fill="#033">Aplicación</text>
+  <rect x="300" y="70" width="200" height="120" rx="8" fill="#ffdfe0" stroke="#ff4b4b"/>
+  <text x="350" y="140" font-size="14" fill="#330">PostgreSQL</text>
+  <rect x="540" y="70" width="180" height="120" rx="8" fill="#e8ffd8" stroke="#4bff4b"/>
+  <text x="600" y="140" font-size="14" fill="#163">pgAdmin</text>
+  <line x1="260" y1="130" x2="300" y2="130" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="500" y1="130" x2="540" y2="130" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#666" />
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <rect x="10" y="10" width="780" height="180" rx="8" fill="#fff7e6" stroke="#f0c040"/>
+  <text x="20" y="35" font-size="18" fill="#333">Figura 2-1. Multi-stage build: builder -> runtime</text>
+  <rect x="80" y="70" width="260" height="80" rx="6" fill="#e6f7ff" stroke="#4b8cff"/>
+  <text x="190" y="115" font-size="14" fill="#033">Stage: builder (maven + JDK)</text>
+  <rect x="440" y="70" width="220" height="80" rx="6" fill="#e6ffe6" stroke="#40c040"/>
+  <text x="505" y="115" font-size="14" fill="#163">Stage: runtime (JRE)</text>
+  <line x1="340" y1="110" x2="440" y2="110" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L6,3 z" fill="#666" />
+    </marker>
+  </defs>
+</svg>
